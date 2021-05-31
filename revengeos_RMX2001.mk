@@ -21,11 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile
 $(call inherit-product, device/realme/RMX2001/device.mk)
 
-# Inherit some common Evolution X stuff.
-$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
+# Inherit some common RevengeOS stuff.
+$(call inherit-product, vendor/revengeos/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := evolution_RMX2001
+PRODUCT_NAME := revengeos_RMX2001
 PRODUCT_DEVICE := RMX2001
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G90T Series
