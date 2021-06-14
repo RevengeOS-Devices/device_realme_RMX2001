@@ -20,6 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from device makefile
 $(call inherit-product, device/realme/RMX2001/device.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Inherit some common RevengeOS stuff.
 $(call inherit-product, vendor/revengeos/config/common.mk)
