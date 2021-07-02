@@ -1,0 +1,18 @@
+[
+  {
+    "remote": "devices",
+    "repository"  : "vendor_realme_RMX2001",
+    "target_path" : "vendor/realme/RMX2001"
+  },
+  {
+    "remote": "devices",
+    "repository"  : "android_kernel_realme_RMX2001",
+    "target_path" : "kernel/realme/RMX2001"
+  },
+  {
+    "remote": "github",
+    "repository": "bx2-nero/android_packages_apps_RealmeParts",
+    "target_path": "packages/apps/RealmeParts",
+    "branch": "r"
+  }
+]
