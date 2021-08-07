@@ -11,8 +11,14 @@
   },
   {
     "remote": "github",
-    "repository": "bx2-nero/android_packages_apps_RealmeParts",
+    "repository": "bx2nero/android_packages_apps_RealmeParts",
     "target_path": "packages/apps/RealmeParts",
     "branch": "r"
+  },
+  {
+    "remote": "github",
+    "repository": "Atlas78/android_packages_apps_RealmeDirac",
+    "target_path": "packages/apps/RealmeDirac",
+    "branch": "master"
   }
 ]
